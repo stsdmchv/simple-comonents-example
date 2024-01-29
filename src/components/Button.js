@@ -1,7 +1,7 @@
 import styled, {css} from "styled-components";
 
 const StyledButton = styled.button`
-    border: none;
+  border: none;
   padding: 10px 15px;
   font-size: 18px;
   cursor: pointer;
@@ -25,8 +25,6 @@ const LargeButton = styled(StyledButton)` // Расширение стилей �
   font-size: 32px;
 `
 
-const Button = (props) => {
+export function Button (props) {
     return <LargeButton {...props} />;
 }
-
-export default Button;

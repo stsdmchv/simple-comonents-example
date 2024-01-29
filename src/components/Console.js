@@ -12,8 +12,6 @@ const StyledConsole = styled.textarea`
   }
 `;
 
-const Console = (props) => {
+export function Console (props) {
     return <StyledConsole {...props} />;
 }
-
-export default Console;

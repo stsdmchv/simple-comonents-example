@@ -8,8 +8,6 @@ const StyledFlex = styled.div`
   margin: ${({margin}) => margin || '0'};
 `;
 
-const Flex = (props) => {
+export function Flex (props) {
     return <StyledFlex {...props} />;
 }
-
-export default Flex;

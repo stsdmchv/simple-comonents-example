@@ -4,8 +4,6 @@ const StyledTitle = styled.h1`
   color: ${({color}) => color};
 `
 
-const Title = (props) => {
+export function Title (props) {
     return <StyledTitle {...props} />;
-};
-
-export default Title;
+}
